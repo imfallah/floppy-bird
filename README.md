@@ -11,7 +11,7 @@
 
 ## Translation 🎄🎀
 
-### 🌏 Readme in [Farsi](README_fa.md)
+### 🌏 Readme in [فارسی](https://github.com/jokernets/floppy-bird/blob/main/Translation/FA.md)
   
 
 ᴛᴀʙʟᴇ ᴏғ ᴄᴏɴᴛᴇɴᴛs ✅✔
@@ -106,7 +106,7 @@ def create_pipes():
     return top_pipe, bottom_pipe
 ```
 
-<img src="https://github.com/jokernets/floppy-bird/blob/main/public/part00.png" width="200" height="300">
+<img src="https://github.com/jokernets/floppy-bird/assets/165279911/b62d33a5-cb57-473a-a146-728cde373afb">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## `PART 2`:
@@ -259,7 +259,7 @@ score_time = True
 score_font = pygame.font.Font("freesansbold.ttf", 27)
 ```
 
-<img src="https://github.com/jokernets/x/blob/main/Flappy%20Bird%202024-04-22%2016_03_20.png" width="200" height="300">
+<img src="https://github.com/jokernets/floppy-bird/assets/165279911/2358b3ea-f5bf-4cac-bb7a-1529a3e64853" width="200" height="300">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## `PART 4 `:
@@ -352,7 +352,7 @@ pygame.quit()
 sys.exit()
 ```
 ## Project Video 🧨🎁
-<img src="https://github.com/jokernets/x/blob/main/FlappyBird2024-04-2213_29_50.png" width="200" height="300"> <img src="https://github.com/jokernets/x/blob/main/floppy.gif" width="300" height="300">
+<img src="https://github.com/jokernets/floppy-bird/assets/165279911/304fa37f-6bbc-4cc7-944e-2951cf1b1229" width="200" height="300"> <img src="https://github.com/jokernets/x/blob/main/floppy.gif" width="300" height="300">
 
 # `𝐂𝐎𝐍𝐍𝐄𝐂𝐓 𝐌𝐄`🎈
 
