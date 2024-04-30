@@ -1,9 +1,11 @@
+
 # ＦｌｏｐｐｙＢｉｒｄ⚡⭐
 
 
 
+
 <p align="center">
-<img src="https://github.com/jokernets/x/blob/main/flopy.jpg"><br><br>
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/flopy.jpg"><br><br>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -47,7 +49,7 @@ Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
 
 ## ρуgαмє🐍❄
 <p align="center">
-<img src="https://github.com/jokernets/x/blob/main/pygame_lofi.png" width='400'>
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/pygame_logo.png" width='400'>
 </p>
 
 ### The Python PyGame library is used to create video games. This library contains several modules for playing sound, drawing graphics, managing mouse inputs, etc. It is also used to create client-side applications that can be wrapped in standalone executables.
@@ -352,7 +354,7 @@ pygame.quit()
 sys.exit()
 ```
 ## Project Video 🧨🎁
-<img src="https://github.com/jokernets/floppy-bird/assets/165279911/304fa37f-6bbc-4cc7-944e-2951cf1b1229" width="200" height="300"> <img src="https://github.com/jokernets/x/blob/main/floppy.gif" width="300" height="300">
+<img src="https://github.com/jokernets/floppy-bird/assets/165279911/304fa37f-6bbc-4cc7-944e-2951cf1b1229" width="200" height="300"> <img src="https://github.com/jokernets/floppy-bird/blob/main/public/floppy.gif" width="300" height="300">
 
 # `𝐂𝐎𝐍𝐍𝐄𝐂𝐓 𝐌𝐄`🎈
 
