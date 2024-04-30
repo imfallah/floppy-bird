@@ -1,7 +1,7 @@
 # فلاپی برد ⚡⭐
 
 <p align="center">
-<img src="https://github.com/jokernets/x/blob/main/flopy.jpg"><br><br>
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/flopy.jpg"><br><br>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -48,7 +48,7 @@ pip install random2
 
 ## پای گیم🐍❄
 <p align="center">
-<img src="https://github.com/jokernets/x/blob/main/pygame_lofi.png" width='400'>
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/pygame_logo.png" width='400'>
 </p>
 ### کتابخانه Python PyGame برای ایجاد بازی های ویدئویی استفاده می شود. این کتابخانه شامل چندین ماژول برای پخش صدا، ترسیم گرافیک، مدیریت ورودی‌های ماوس و غیره است. همچنین برای ایجاد برنامه‌های سمت کلاینت که می‌توانند در فایل‌های اجرایی مستقل پیچیده شوند، استفاده می‌شود.
 
@@ -62,23 +62,23 @@ pip install random2
 
 ## `پارت 1`:
 1. **وارد کردن کتابخانه ها**:
-     - 'pygame': برای ساخت بازی و برنامه های گرافیکی.
-     - `sys`: برای دسترسی به برخی از توابع و متغیرهای مرتبط با مدیریت پایتون.
+- 'pygame': برای ساخت بازی و برنامه های گرافیکی.
+- `sys`: برای دسترسی به برخی از توابع و متغیرهای مرتبط با مدیریت پایتون.
 - «زمان»: کار کردن با زمان.
 - "تصادفی": برای تولید اعداد تصادفی.
 
 2. **راه اندازی اولیه «pygame»**:
-     - `pygame.init()`: برای مقداردهی اولیه همه ماژول های مورد نیاز "pygame".
-     - `clock = pygame.time.Clock()`: برای کنترل نرخ فریم در بازی.
+- `pygame.init()`: برای مقداردهی اولیه همه ماژول های مورد نیاز "pygame".
+- `clock = pygame.time.Clock()`: برای کنترل نرخ فریم در بازی.
 
 3. **عملکرد Draw_floor**:
 - از این تابع برای ترسیم کف بازی استفاده می شود.
-     - `screen.blit`: برای قرار دادن تصویر "floor_img" در موقعیت های مشخص شده روی صفحه.
+- `screen.blit`: برای قرار دادن تصویر "floor_img" در موقعیت های مشخص شده روی صفحه.
 
 4. **عملکرد «create_pipes»**:
 - برای ایجاد لوله هایی در بازی که پرنده باید از آنها عبور کند.
-     - "pipe_y": یک ارتفاع تصادفی از لیست "pipe_height" انتخاب کنید.
-     - "top_pipe" و "bottom_pipe": با استفاده از "pipe_img.get_rect" و موقعیت های مشخص، مستطیل هایی را برای لوله های بالا و پایین تعریف کنید.
+- "pipe_y": یک ارتفاع تصادفی از لیست "pipe_height" انتخاب کنید.
+- "top_pipe" و "bottom_pipe": با استفاده از "pipe_img.get_rect" و موقعیت های مشخص، مستطیل هایی را برای لوله های بالا و پایین تعریف کنید.
 
 این کد بخشی از یک حلقه بازی است که در آن از توابع "draw_floor" و "create_pipes" برای ترسیم محیط بازی و ایجاد موانع استفاده می شود. برای ادامه بازی، باید متغیرهای بیشتری مانند «screen»، «floor_img»، «pipe_img» و «pipe_height» تعریف کنید و همچنین باید حلقه اصلی بازی را که در آن ورودی کاربر را بررسی می‌کنید، تعریف کنید. به روز رسانی های لازم
 ```python
@@ -104,7 +104,7 @@ def create_pipes():
     bottom_pipe = pipe_img.get_rect(midtop=(467, pipe_y))
     return top_pipe, bottom_pipe
 ```
-<img src="https://github.com/jokernets/floppy-bird/assets/165279911/b62d33a5-cb57-473a-a146-728cde373afb">
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/part%200.png">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## `پارت 2`:
@@ -256,7 +256,7 @@ score_time = True
 score_font = pygame.font.Font("freesansbold.ttf", 27)
 ```
 
-<img src="https://github.com/jokernets/x/blob/main/Flappy%20Bird%202024-04-22%2016_03_20.png" width="200" height="300">
+<img src="https://github.com/jokernets/floppy-bird/blob/main/public/Flappy%20Bird%202024-04-22%2016_03_20.png" width="200" height="300">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 ## `پارت 4 `:
@@ -350,7 +350,7 @@ sys.exit()
 ```
 ## ویدیو از پروژه 🏆
 
-<img src="https://github.com/jokernets/floppy-bird/assets/165279911/304fa37f-6bbc-4cc7-944e-2951cf1b1229" width="200" height="300"> <img src="https://github.com/jokernets/x/blob/main/floppy.gif" width="300" height="300">
+<img src="https://github.com/jokernets/floppy-bird/assets/165279911/304fa37f-6bbc-4cc7-944e-2951cf1b1229" width="200" height="300"> <img src="https://github.com/jokernets/floppy-bird/blob/main/public/floppy.gif" width="300" height="300">
 
 
 
